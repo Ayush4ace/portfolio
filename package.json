@@ -3,8 +3,8 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Elijah Farrell's personal portfolio website - Computer Science graduate with expertise in full-stack development, AI/ML engineering, and distributed systems",
-  "author": "Elijah Farrell",
+  "description": "Ayush Maurya's personal portfolio website - Computer Science graduate with expertise in full-stack development, AI/ML engineering, and distributed systems",
+  "author": "Ayush Maurya",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

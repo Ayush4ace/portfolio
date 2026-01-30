@@ -215,7 +215,7 @@ export default function ContactForm({ onClose }: ContactFormProps) {
           toast({
             title: "Message sent successfully!",
             duration: Infinity, // Never auto-dismiss - user must click X to close
-            actionUrl: "https://cal.com/elijahfarrell/30min",
+            actionUrl: "https://cal.com/ayushmaurya/30min",
             actionLabel: "Schedule Consultation",
           });
         } else {

@@ -156,7 +156,7 @@ export default function Hero(): JSX.Element {
 
         {/* Main text */}
         <div className="flex flex-wrap items-center mt-2 text-sm sm:text-base intro-text">
-          <span>I am Elijah, I am a&nbsp;</span>
+          <span>I am Ayush, I am a&nbsp;</span>
           <FlipWords
             words={[
               "<Developer/>",
@@ -164,7 +164,7 @@ export default function Hero(): JSX.Element {
               "<Coder/>",
               "Programmer",
               "Problem Solver",
-              "PC Builder",
+              "Full Stack Developer",
               "Tech Nerd",
             ]}
             duration={10000}

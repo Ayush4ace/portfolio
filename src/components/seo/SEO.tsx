@@ -11,27 +11,27 @@ interface SEOProps {
 }
 
 export const SEO: React.FC<SEOProps> = ({
-  title = "Elijah Farrell",
-  description = "Elijah Farrell's portfolio. Full Stack Developer, Computer Science graduate, and aspiring IT support professional pursuing CompTIA A+ certification. Showcasing interactive React projects, Minecraft mods, and modern web applications built with TypeScript, Next.js, and creative UI design.",
-  keywords = "Elijah Farrell, Computer Science graduate, Full Stack Developer, Software Engineer, Web Development, Frontend, Backend, Algorithms, Data Structures, Databases, Systems, IT Support, Help Desk, Technical Support, CompTIA A+, Entry-level IT, React, TypeScript, JavaScript, Portfolio",
+  title = "Ayush Maurya",
+  description = "Ayush Maurya's portfolio. Full Stack Developer, Computer Science graduate, and aspiring IT support professional pursuing CompTIA A+ certification. Showcasing interactive React projects, Minecraft mods, and modern web applications built with TypeScript, Next.js, and creative UI design.",
+  keywords = "Ayush Maurya, Computer Science graduate, Full Stack Developer, Software Engineer, Web Development, Frontend, Backend, Algorithms, Data Structures, Databases, Systems, IT Support, Help Desk, Technical Support, CompTIA A+, Entry-level IT, React, TypeScript, JavaScript, Portfolio",
   image = "https://elijahfarrell.com/android-chrome-512x512.png",
   url = "https://elijahfarrell.com/",
   type = "website",
-  author = "Elijah Farrell"
+  author = "Ayush Maurya"
 }) => {
   // Structured data for better SEO
   const structuredData = [
     {
       "@context": "https://schema.org",
       "@type": "Person",
-      "name": "Elijah Farrell",
+      "name": "Ayush Maurya",
       "jobTitle": "Computer Scientist",
       "description": description,
       "url": "https://elijahfarrell.com",
       "image": image,
       "sameAs": [
-        "https://github.com/elijah-farrell",
-        "https://www.linkedin.com/in/elifarrell/"
+        "https://github.com/ayush-maurya",
+        "https://www.linkedin.com/in/ayush/"
       ],
       "knowsAbout": [
         "Computer Science",
@@ -61,12 +61,12 @@ export const SEO: React.FC<SEOProps> = ({
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "Elijah Farrell Portfolio",
+      "name": "Ayush Maurya Portfolio",
       "url": "https://elijahfarrell.com",
       "description": description,
       "author": {
         "@type": "Person",
-        "name": "Elijah Farrell"
+        "name": "Ayush Maurya"
       }
     }
   ];
@@ -95,7 +95,7 @@ export const SEO: React.FC<SEOProps> = ({
       <meta property="og:image:height" content="512" />
       <meta property="og:image:type" content="image/png" />
       <meta property="og:image:alt" content={`${author} - Portfolio Logo`} />
-      <meta property="og:site_name" content="Elijah Farrell Portfolio" />
+      <meta property="og:site_name" content="Ayush Maurya Portfolio" />
       <meta property="og:locale" content="en_US" />
       {type === 'article' && author && (
         <meta property="article:author" content={author} />
@@ -113,7 +113,7 @@ export const SEO: React.FC<SEOProps> = ({
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-      <meta name="apple-mobile-web-app-title" content="Elijah Farrell" />
+      <meta name="apple-mobile-web-app-title" content="Ayush Maurya" />
       
       {/* Canonical URL */}
       <link rel="canonical" href={url} />

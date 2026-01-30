@@ -137,7 +137,7 @@ const FloatingImage: React.FC = () => {
                 {/* Both images rendered simultaneously for smooth cross-fade */}
                 <img
                   src={altMainImage}
-                  alt="Elijah Farrell - Software Developer"
+                  alt="Ayush Maurya - Software Developer"
                   width={384}
                   height={384}
                   loading="eager"
@@ -154,7 +154,7 @@ const FloatingImage: React.FC = () => {
                 />
                 <img
                   src={mainImage}
-                  alt="Elijah Farrell - Software Developer"
+                  alt="Ayush Maurya - Software Developer"
                   width={384}
                   height={384}
                   loading="eager"
@@ -200,7 +200,7 @@ const FloatingImage: React.FC = () => {
           {/* Both images rendered simultaneously for smooth cross-fade */}
           <img
             src={altMainImage}
-            alt="Elijah Farrell - Software Developer"
+            alt="Ayush Maurya - Software Developer"
             width={384}
             height={384}
             loading="eager"
@@ -217,7 +217,7 @@ const FloatingImage: React.FC = () => {
           />
           <img
             src={mainImage}
-            alt="Elijah Farrell - Software Developer"
+            alt="Ayush Maurya - Software Developer"
             width={384}
             height={384}
             loading="eager"

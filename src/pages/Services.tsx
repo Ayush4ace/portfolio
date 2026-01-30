@@ -115,10 +115,10 @@ export default function Services(): JSX.Element {
   return (
     <div>
       <SEO
-        title="Technical Services by Elijah Farrell – Web Development & Consulting"
+        title="Technical Services by Ayush Maurya – Web Development & Consulting"
         description="CS professional offering web development, backend services, and technical consulting. Let's build something together."
         keywords="web development, technical consulting, React, Python, backend development, CS professional"
-        url="https://elijahfarrell.com/services"
+        url="https://ayushmaurya.com/services"
       />
       
       <ServicesHero />
