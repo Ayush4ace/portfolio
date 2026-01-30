@@ -204,7 +204,7 @@ export function Navbar() {
                   }}
                   className="mobile-menu-logo text-2xl font-bold bg-gradient-to-r from-emerald-500 to-emerald-900 dark:from-emerald-300 dark:to-emerald-600 bg-clip-text text-transparent mb-4"
                 >
-                  Elijah Farrell
+                  Ayush Maurya
                 </a>
 
                 {/* Navigation Links */}

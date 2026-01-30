@@ -7,9 +7,9 @@ import { FiMapPin, FiMail, FiPhone } from "react-icons/fi";
 
 export default function Contact(): JSX.Element {
   const allLinks = [
-    { title: "Email", icon: <FiMail />, url: "mailto:farrellelijah@outlook.com" },
-    { title: "Schedule Call", icon: <FiPhone />, url: "https://cal.com/elijahfarrell", external: true },
-    { title: "GitHub", url: "https://github.com/elijah-farrell", icon: <SiGithub /> },
+    { title: "Email", icon: <FiMail />, url: "mailto:ayusbmaurya@gmail.com" },
+    { title: "Schedule Call", icon: <FiPhone />, url: "https://cal.com/ayushmaurya", external: true },
+    { title: "GitHub", url: "https://github.com/ayush-maurya", icon: <SiGithub /> },
     {
       title: "Location",
       icon: <FiMapPin />,
@@ -119,10 +119,10 @@ export default function Contact(): JSX.Element {
             <p className="text-black dark:text-[var(--text)] mt-16 md:mt-8 mb-0 text-center text-lg w-full">
               Feel free to reach me at{" "}
               <a
-                href="mailto:farrellelijah@outlook.com"
+                href="mailto:ayusbmaurya@gmail.com"
                 className="underline underline-offset-2"
               >
-                farrellelijah@outlook.com
+                ayusbmaurya@gmail.com
               </a>
             </p>
 

@@ -469,8 +469,8 @@ export const NavbarLogo = ({ visible }: { visible?: boolean }) => {
         }}
         className="relative text-lg md:text-xl whitespace-nowrap outline-none py-1"
       >
-        <span className="text-xl bg-gradient-to-r from-emerald-500 to-emerald-900 dark:from-emerald-300 dark:to-emerald-600 bg-clip-text text-transparent relative z-10">Elijah</span>
-        <span className="hidden xl:inline text-gray-900 dark:text-[var(--text)] relative z-10"> Farrell</span>
+        <span className="text-xl bg-gradient-to-r from-emerald-500 to-emerald-900 dark:from-emerald-300 dark:to-emerald-600 bg-clip-text text-transparent relative z-10">Ayush</span>
+        <span className="hidden xl:inline text-gray-900 dark:text-[var(--text)] relative z-10"> Maurya</span>
       </a>
     </div>
   );

@@ -2,7 +2,7 @@ import { promises as fs } from "fs";
 import { join } from "path";
 import type { IncomingMessage, ServerResponse } from "http";
 
-const resumePath = join(process.cwd(), "private", "ElijahFarrell.pdf");
+const resumePath = join(process.cwd(), "private", "ayush-resume.pdf");
 
 export default async function handler(
   _: IncomingMessage,
@@ -14,7 +14,7 @@ export default async function handler(
     res.setHeader("Content-Type", "application/pdf");
     res.setHeader(
       "Content-Disposition",
-      'attachment; filename="ElijahFarrell.pdf"'
+      'attachment; filename="ayush-resume.pdf"'
     );
     res.setHeader("Cache-Control", "public, max-age=86400, immutable");
     res.setHeader("X-Robots-Tag", "noindex, nofollow, noarchive");
